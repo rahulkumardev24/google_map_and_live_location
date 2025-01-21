@@ -15,7 +15,7 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
       appBar: AppBar(title: const Text("Google Map"),),
       /// here we show google map
       body: const GoogleMap(
-        mapType: MapType.satellite,
+        mapType: MapType.normal,
 
           zoomGesturesEnabled: true,
           indoorViewEnabled: true,

@@ -115,7 +115,7 @@ class _CurrentLocationOnGoogleMapScreenState
                 infoWindow: const InfoWindow(
                     title: "Current Location", snippet: "Use GPS"))
           },
-          mapType: MapType.satellite,
+          mapType: MapType.hybrid,
           initialCameraPosition: const CameraPosition(
               target: LatLng(25.197525, 55.274288), zoom: 17, bearing: 40.7)),
     );
